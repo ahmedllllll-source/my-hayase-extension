@@ -1,0 +1,13 @@
+{
+  "name": "My Test Source",
+  "id": "my-test-source",
+  "version": "1.0.0",
+  "sources": [
+    {
+      "id": "my-anime-source",
+      "name": "My Anime Source",
+      "entry": "source.js",
+      "type": "content"
+    }
+  ]
+}

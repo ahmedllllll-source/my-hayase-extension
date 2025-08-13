@@ -1,0 +1,22 @@
+export default {
+  id: "my-anime-source",
+  name: "My Anime Source",
+
+  // البحث
+  async search(query) {
+    return [];
+  },
+
+  // الحلقات
+  async listEpisodes(animeId) {
+    return [];
+  },
+
+  // رابط البث
+  async getStream(episodeId) {
+    return {
+      url: "",
+      subtitles: []
+    };
+  }
+};
